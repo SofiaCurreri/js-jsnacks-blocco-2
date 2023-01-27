@@ -10,11 +10,11 @@ let l = 0;
 for (let i = 0; i < squadra.length; i++) {
     if (squadra[i] == "W") {
         w++;
+    } else if (squadra[i] == "X") {
+        x++;
+    } else {
+        l++;
     }
-} else if (squadra[i] == "X") {
-    x++;
-} else {
-    l++;
 }
 
 console.log("Numero vittorie: ", w);
